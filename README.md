@@ -31,8 +31,11 @@ You can modify the example usage section to add your own locations and connectio
 
 Run the script to see the connections and shortest path output.
   python Travel_planner_using_Graph.py
-### Example
+## Example
+
 Here is a basic usage example included in the script:
+
+```python
 planner = Graph()
 planner.add_location("A")
 planner.add_location("B")
@@ -46,6 +49,7 @@ planner.view_connections()
 
 print("\nShortest path from A to C:")
 print(planner.dijkstra("A", "C"))
+
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
