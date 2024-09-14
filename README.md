@@ -49,9 +49,3 @@ planner.view_connections()
 
 print("\nShortest path from A to C:")
 print(planner.dijkstra("A", "C"))
-
-## Licese
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-Based on graph theory concepts and Dijkstra's algorithm.
