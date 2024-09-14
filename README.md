@@ -24,7 +24,7 @@ The Travel Planner Using Graph project is a Python application designed to manag
    git clone <repository-url>
 2. Navigate to the project directory.
    cd <project-directory>
-### Usage
+## Usage
 Open Travel_planner_using_Graph.py in your Python environment.
 
 You can modify the example usage section to add your own locations and connections.
@@ -48,10 +48,10 @@ print("Connections:")
 planner.view_connections()
 
 print("\nShortest path from A to C:")
-print(planner.dijkstra("A", "C"))```
+print(planner.dijkstra("A", "C"))
 
-### License
+## Licese
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Acknowledgements
+## Acknowledgements
 Based on graph theory concepts and Dijkstra's algorithm.
